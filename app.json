@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "bootcamp3",
+    "description": "An empty new project",
+    "slug": "bootcamp3",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "id.bootcamp3.idj",
+      "supportsTablet": true
+    },
+    "android": {
+        "package": "id.bootcamp3.idj",
+        "config": {
+           "googleMaps": {
+              "apiKey": "AIzaSyAZE9ZlqbGfN7yOxXUOghax0AdwoD1bLNg"
+           }
+        }
+      }
+  }
+}
